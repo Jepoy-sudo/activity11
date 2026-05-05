@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loop Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- FOR LOOP -->
+    <div class="card">
+      <h2>FOR LOOP</h2>
+      <div class="field">
+        <label>> ENTER NUMBER:</label>
+        <input type="number" id="for-num" />
+      </div>
+      <div class="field">
+        <label>> ENTER TEXT:</label>
+        <input type="text" id="for-text" />
+      </div>
+      <button class="btn-show" onclick="runFor()">SHOW</button>
+      <button class="btn-clear" onclick="clearOut('for-output')">CLEAR</button>
+      <div class="output" id="for-output"></div>
+    </div>
+
+    <!-- WHILE LOOP -->
+    <div class="card">
+      <h2>WHILE LOOP</h2>
+      <div class="field">
+        <label>> ENTER NUMBER:</label>
+        <input type="number" id="while-num" />
+      </div>
+      <div class="field">
+        <label>> ENTER TEXT:</label>
+        <input type="text" id="while-text" />
+      </div>
+      <button class="btn-show" onclick="runWhile()">SHOW</button>
+      <button class="btn-clear" onclick="clearOut('while-output')">CLEAR</button>
+      <div class="output" id="while-output"></div>
+    </div>
+
+    <!-- DO-WHILE LOOP -->
+    <div class="card">
+      <h2>DO-WHILE LOOP</h2>
+      <div class="field">
+        <label>> ENTER NUMBER:</label>
+        <input type="number" id="dowhile-num" />
+      </div>
+      <div class="field">
+        <label>> ENTER TEXT:</label>
+        <input type="text" id="dowhile-text" />
+      </div>
+      <button class="btn-show" onclick="runDoWhile()">SHOW</button>
+      <button class="btn-clear" onclick="clearOut('dowhile-output')">CLEAR</button>
+      <div class="output" id="dowhile-output"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
